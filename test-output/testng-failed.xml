@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Informatorio.testing.App">
+        <methods>
+          <include name="CloseUp"/>
+          <include name="Test"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Informatorio.testing.App -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
